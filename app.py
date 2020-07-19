@@ -1,6 +1,7 @@
 from dotenv import load_dotenv
 from flask import Flask, render_template, jsonify
 from models.homeworkuser import Db, HomeworkUser
+import os
 from os import environ
 
 load_dotenv('.env')
